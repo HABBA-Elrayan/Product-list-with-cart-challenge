@@ -18,7 +18,7 @@ jsonData.forEach(produit => {
     </div>`;
 });
 
-// Attache un événement "click" à chaque bouton après le rendu
+// Attache un événement "click" à chaque bouton
 document.querySelectorAll('.button-off').forEach(button => {
     button.addEventListener('click', () => {
         const nom = button.dataset.name;
